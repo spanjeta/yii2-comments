@@ -1,0 +1,21 @@
+{
+    "name": "spanjeta/yii2-comments",
+    "description": "Comments Widget adds comment box for any view",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","comments"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Shiv Charan Panjeta",
+            "email": "shivcharan.panjeta@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "spanjeta\\comments\\": ""
+        }
+    }
+}
