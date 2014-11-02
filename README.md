@@ -1,3 +1,7 @@
+NOT READY YET. Please do not use it yet
+=============================================
+
+
 Comments Widget
 ===============
 Comments Widget adds comment box for any view
