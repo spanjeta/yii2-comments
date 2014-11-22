@@ -18,11 +18,5 @@
             "spanjeta\\comments\\": ""
         }
     }
-    "repositories":[
-    {
-        "type": "git",
-        "url": "https://github.com/spanjeta/yii2-comments.git"
-    }
 
-]
 }
