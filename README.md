@@ -29,7 +29,14 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, use mitration to install table
+
+```
+yii migrate/up --migrationPath=@spanjeta/comments/migrations
+```
+
+
+simply use it in your code by  :
 
 ```php
-<?= \spanjeta\comments\AutoloadExample::widget(); ?>```
+<?=   \spanjeta\comments\CommentsWidget::widget(['model'=>$model]); ?>```
