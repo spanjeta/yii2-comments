@@ -25,7 +25,7 @@ class m141119_220432_comments extends Migration
          * ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
          *
          */
-        $this->createTable('tbl_comment', [
+         $this->createTable('{{%comment}}', [
             'id' => 'pk',
             'comment' => Schema::TYPE_TEXT,
             'model_type' => Schema::TYPE_STRING,
@@ -41,7 +41,7 @@ class m141119_220432_comments extends Migration
     public function down()
     {
         echo "m141119_220432_comments cannot be reverted.\n";
-        $this->dropTable('tbl_comment');
+        $this->dropTable('{{%comment}}');
         return false;
     }
 }
